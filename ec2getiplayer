@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo yum update -y
+wget https://github.com/albuild/snap/releases/download/v0.1.0/snap-confine-2.36.3-0.amzn2.x86_64.rpm
+wget https://github.com/albuild/snap/releases/download/v0.1.0/snapd-2.36.3-0.amzn2.x86_64.rpm
+sudo yum -y install snap-confine-2.36.3-0.amzn2.x86_64.rpm snapd-2.36.3-0.amzn2.x86_64.rpm
+sudo systemctl enable --now snapd.socket
+sudo snap install get-iplayer
+# klappt nicht beim ersten Versuch, also nochmal
+sudo snap install get-iplayer
