@@ -9,9 +9,7 @@ Nun eine virtuelle Maschine erzeugen. Größe nano reicht. Das Standard Amazon I
 Mittels ssh auf den User ec2-user einloggen.
 ````
 wget https://raw.githubusercontent.com/katzenjens/ec2_get_iplayer/master/ec2getiplayer
-
 chmod +x ec2getiplayer
-
 ./ec2getiplayer
 ````
 Aus und wieder einloggen.
