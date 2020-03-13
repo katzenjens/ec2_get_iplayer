@@ -7,8 +7,11 @@ Einen SSH-Key erzeugen oder importieren. Public Key hochladen, Private Key in de
 Eine Security-Group erzeugen, welches nur Port 22 (SSH) durchlässt
 Nun eine virtuelle Maschine erzeugen. Größe nano reicht. Das Standard Amazon Image nehmen.
 Mittels ssh auf den User ec2-user einloggen.
+
 wget https://raw.githubusercontent.com/katzenjens/ec2_get_iplayer/master/ec2getiplayer
+
 chmod +x ec2getiplayer
+
 ./ec2getiplayer
 
 Aus und wieder einloggen.
