@@ -2,8 +2,9 @@
 
 An das BBC Archiv von ausserhalb UK herankommen über Amazon EC2.
 Ein Konto bei der Amazon Cloud EC2 anlegen. Neubenutzer haben ein freies Kontingent.
-https://aws.amazon.com/de/ec2/getting-started/
 Den Standort Europe-London auswählen.
+
+https://aws.amazon.com/de/ec2/getting-started/
 
 Einen SSH-Key erzeugen oder importieren. Public Key hochladen, Private Key in den lokalen SSH Client (z.B. Putty)
 Eine Security-Group erzeugen, welches nur Port 22 (SSH) durchlässt.
