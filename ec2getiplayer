@@ -6,3 +6,5 @@ sudo yum -y install snap-confine-2.36.3-0.amzn2.x86_64.rpm snapd-2.36.3-0.amzn2.
 sudo systemctl enable --now snapd.socket
 sleep 10
 sudo snap install get-iplayer
+sleep 5
+sudo snap install get-iplayer
