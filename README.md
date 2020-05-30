@@ -15,7 +15,6 @@ wget https://raw.githubusercontent.com/katzenjens/ec2_get_iplayer/master/ec2geti
 chmod +x ec2getiplayer
 ./ec2getiplayer
 ````
-Aus und wieder einloggen.
 Nun mit
 get_iplayer [URL von BBC Film] 
 den gewünschten Film herunterladen
@@ -23,3 +22,4 @@ den gewünschten Film herunterladen
 Nach getaner Arbeit direkt die Amazon EC2 Maschine direkt terminieren (zerstören). Frisst sonst unnötig Geld.
 
 Falls jemand Nachhilfe braucht, um einen EC2-Server bei Amazon zu erzeugen, ich habe in meinem Technik-Blog es etwas ausführlicher beschrieben. https://technik.katzenjens.de/2020/03/geolocationfilter-der-bbc-uberwinden.html
+
